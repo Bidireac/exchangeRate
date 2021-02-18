@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="exchange-display">
+      <div class="page-display">
+        <img src="img/exchange.png" alt="" class="exchange-img" />
+        <h1>Exchange Rate Calculator</h1>
+        <p>Choose the currency and the amounts to get the exchange rate ,</p>
+        <p>While you can see the latest fluctuations accordingly.</p>
+      </div>
+      <div class="exchange-container">
+        <div class="container">
+          <div class="currency-display">
+            <div class="currency">
+              <select id="currency-one">
+                <option value="" disabled selected>Select your option</option>
+                <input type="number" id="amount-one" placeholder="0" />
+              </select>
+            </div>
+            <div class="swap-rate">
+              <div class="rate" id="rate"></div>
+            </div>
+            <div class="currency">
+              <select id="currency-two">
+                <option value="" disabled selected>Select your option</option>
+                <input type="number" id="amount-two" placeholder="0" />
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="table-display">
+            <div class="description">
+              <h2>Currency</h2>
+              <h2>Yesterday</h2>
+              <h2>Fluctuation</h2>
+              <h2>Today</h2>
+            </div>
+            <div class="flux-rate"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
