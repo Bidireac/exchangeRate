@@ -1,5 +1,5 @@
 # Currency Exchange Rate
-> Convert currencies value with real time data.
+> Convert currency value with real time data.
 
 ## Table of Contents
 * [General info](#general-info)
