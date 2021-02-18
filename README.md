@@ -29,4 +29,4 @@ Project is:  _finished
 
 ## Live Demo
 
-https://serene-murdock-1e2cfd.netlify.app
+https://zealous-easley-ea366a.netlify.app/
